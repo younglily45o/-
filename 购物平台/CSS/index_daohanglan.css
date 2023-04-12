@@ -1,0 +1,105 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#all{
+	overflow: hidden;
+	z-index: 10;
+}
+body{
+	background-color:#eae8eb;
+}
+#daohang {
+	
+	width: 1530px;
+	background-color: #f5f5f5;
+	height: 30px;
+}
+
+select {
+	width: 85px;
+	height: 30px;
+	border: none;
+	text-align: center;
+	background: #f5f5f5;
+	font-size: 13px;
+}
+
+#daohang1 {
+	width: 750px;
+	height: 30px;
+	font-size: 0.75rem;
+	color: #808080;
+	text-align: center;
+	line-height: 26px;
+	float: left
+}
+
+#daohang1 span {
+	width: 60px;
+	height: 1.875rem;
+	display: inline-block;
+}
+
+#daohang1 ul {
+	list-style: none;
+	display: inline-block;
+}
+
+#daohang2 {
+	padding: 0 90px;
+	width: 600px;
+	height: 30px;
+	font-size: 0.75rem;
+	line-height: 26px;
+	text-align: left;
+	color: #808080;
+	display: inline-block;
+}
+
+li {
+	float: left;
+	padding: 0 6px;
+
+}
+
+#f1 {
+	width: 85px;
+
+}
+
+#f1:hover {
+	background-color: #ffffff;
+}
+
+#f01:hover {
+	background-color: #ffffff;
+}
+#dis,#dis1{
+	opacity: 0;
+}
+#dis li,
+#dis1 li {
+	clear: left;
+	padding-top: 0.0625rem;
+}
+
+#daohang a {
+	color: #808080;
+	display: inline-block;
+	text-align: center;
+	line-height: 26px;
+}
+#daohang a:hover {
+	color: #FF7300;
+}
+a:hover {
+	color: #FF7300;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+

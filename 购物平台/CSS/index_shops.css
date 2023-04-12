@@ -1,0 +1,82 @@
+#shops {
+	width: 1190px;
+	/* height: 540px; */
+	margin-top: 30px;
+	overflow: hidden;
+	/* padding-top: 30px; */
+}
+
+.box {
+	width: 298px;
+	/* height: 415px; */
+	background-color: #f6f8f6;
+	margin: 20px 45px;
+	float: left;
+}
+
+.box img {
+	width: 295px;
+	height: 277px;
+}
+
+.review {
+	font-size: 14px;
+	height: 30px;
+	padding: 0 28px;
+	margin-top: 30px;
+}
+
+.appraise {
+	color: #abadb7;
+	font-size: 12px;
+	padding: 0 28px;
+	margin-top: 17px;
+}
+
+.info {
+	text-align: right;
+	font-size: 14px;
+	margin-top: 10px;
+	padding: 0 28px;
+
+}
+
+.info h4 {
+	display: inline-block;
+	font-weight: 400;
+}
+
+.info span {
+	color: #ff7300;
+}
+
+.info em {
+	font-style: normal;
+	color: #d8dee8;
+	margin: 0 6px 15px;
+
+}
+
+#incar a {
+	color: #FFFFFF;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+#incar {
+	margin: 10px 190px;
+	text-align: center;
+	line-height: 26px;
+	width: 100px;
+	height: 30px;
+	background-color: #fd7300;
+	color: #FFFFFF;
+}
+
+#incar:hover {
+	background-color: #ff3815;
+}

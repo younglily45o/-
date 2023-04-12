@@ -1,0 +1,132 @@
+#cart {
+	width: 1190px;
+	background-color: #fafafa;
+	margin: 100px auto;
+	clear: both;
+	border-radius: 40px 50px;
+}
+
+#gouwu {
+	font-size: 25px;
+	font-family: "黑体";
+	padding-top: 20px;
+	margin: 0 50px;
+}
+
+#gouwucar a{
+	color: red;
+}
+#gouwucar a:hover{
+	color: #ff7300;
+}
+#dianji{
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	text-align: center;
+	line-height: 38px;
+	margin-left: 600px;
+	background-color: #f99648;
+	border-radius: 50px 50px;
+}
+#dianji:hover{
+	background-color: #ffe79b;
+}
+#zongjia {
+	color: #dc856c;
+	position: absolute;
+	overflow: hidden;
+	margin-top: 7px;
+}
+
+#jiesuan {
+	line-height: 45px;
+	width: 130px;
+	height: 50px;
+	background-color: red;
+	margin-left: 980px;
+	margin-bottom: 30px;
+	display: inline-block;
+	border-radius: 40px 40px;
+	text-align: center;
+	font-size: 20px;
+}
+#jiesuan:hover{
+	background-color: #ff7300;
+}
+#delete a {
+	color: black;
+	text-decoration: none;
+}
+
+#jiesuan a {
+	color: #FFFFFF;
+}
+
+#delete a:hover {
+	color: #FF7300;
+}
+
+
+table {
+	margin-left: 25px;
+	padding-bottom: 80px;
+	text-align: center;
+	border: none;
+
+}
+
+td img {
+	width: 110px;
+	height: 95px;
+
+}
+
+.jinE {
+	color: red;
+}
+
+th,
+td {
+	width: 160px;
+	border: none;
+}
+
+th {
+	height: 50px;
+}
+td{
+	height: 100px;
+}
+
+#shopmassage{
+	
+}
+#shopmassage:hover {
+	color: #ff7300;
+}
+
+#button0 {
+	padding-left: 48px;
+}
+
+#button1,
+#button2,
+#button0 {
+	float: left;
+}
+
+#button1,
+#button3 {
+	width: 25px;
+	height: 25px;
+	font-size: 20px;
+	text-indent: 6px;
+}
+
+#button2 {
+	width: 40px;
+	height: 25px;
+	background-color: #eae8eb;
+	text-align: center;
+}

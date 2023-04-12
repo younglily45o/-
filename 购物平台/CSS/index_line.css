@@ -1,0 +1,18 @@
+#line{
+	margin-top: 30px;
+	display: block;
+}
+#text2{
+	color: red;
+}
+#text1,#text2{
+	font-size: 20px;
+	line-height: 1px;
+}
+#line1,#text1,#text2{
+	float: left;
+}
+#line1,#line2{
+	width: 540px;
+	border-color: red;
+}

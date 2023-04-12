@@ -1,0 +1,44 @@
+#soushuo_0 {
+	margin: 63px auto;
+	width: 764px;
+	height: 35px;
+	background-color: #FFFFFF;
+	display: block;
+	border-radius: 50px 50px;
+	border: solid #fe570b;
+
+}
+
+#soushuo_0 p{
+	color: #808080;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 0 6px;
+}
+
+#soushuo_1 {
+	left: 1px;
+	margin: 1px auto 1px;
+	width: 700px;
+	height: 33px;
+	display: block;
+	border: #FFFFFF;
+	position: relative;
+	border-top-left-radius: 50px 50px;
+	border-bottom-left-radius: 50px 50px;
+	float: left;
+}
+
+
+#shousuo_2 {
+	width: 64px;
+	height: 35px;
+	line-height: 2px;
+	display: inline-block;
+	text-align: center;
+	background-color: #ff7300;
+	border-radius: 50px 50px;
+}
+#shousuo_2 a{
+	color: #FFFFFF;
+}

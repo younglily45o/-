@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>我的商品</title>
+		<link rel="shortcut icon" href="images/可莉.jpg" />
+		<link rel="stylesheet" type="text/css" href="CSS/index_daohanglan.css" />
+		<link rel="stylesheet" type="text/css" href="CSS/index_logo.css" />
+		<link rel="stylesheet" type="text/css" href="CSS/shopcar_cart.css" />
+	</head>
+	<body>
+		<div id="">
+			<div id="daohang">
+				<!-- 与主页面相同的导航栏页面 -->
+				<div id="daohang1">
+					<select id="f01">
+						<option value="">中国大陆</option>
+						<option value="">香港</option>
+						<option value="">澳门</option>
+						<option value="">台湾</option>
+						<option value="">海外</option>
+					</select>
+					<span><a href="#">亲,请登录</a></span>
+					<span><a href="#">免费注册</a></span>
+					<span><a href="#">手机逛街</a></span>
+					<span><a href="index.html" target="_blank">首页</a></span>
+				</div>
+
+				<div id="daohang2">
+					<ul>
+						<!-- 下拉菜单栏 ,开始-->
+						<li id="btn">
+							<a href="#" id="f1">我的淘淘</a>
+							<ul id="dis">
+								<li><a href="#">已购买</a></li>
+								<li><a href="#">我的足迹</a></li>
+							</ul>
+							<!-- 结束 -->
+						</li>
+						<li><a href="#">购物车</a></li>
+						<li id="btn1">
+							<a href="#" id="f1">收藏夹</a>
+							<ul id="dis1">
+								<li><a href="#">我收藏的宝贝</a></li>
+								<li><a href="#">我收藏的店铺</a></li>
+							</ul>
+						</li>
+						<li><a href="#">商品分类</a></li>
+						<li><a href="#">开店中心</a></li>
+						<li>|</li>
+						<li><a href="#">卖家中心</a></li>
+						<li><a href="#">联系中心</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+		<div id="logo_1">
+			拼京淘|PJT
+
+		</div>
+		<div id="cart">
+			<div id="">
+
+				<div id="shopping01" onload="inputimg()">
+					<div id="gouwu">
+						<span id="gouwucar" onclick="addshop()"><a href="#">刷新购物车</a></span>
+						<span id="dianji" onclick="money()">点击计算总价</span>
+						<span id="zongjia">总价:<span id="allmoney"  >0</span>元</span>
+						
+						
+					</div>
+					
+					<br>
+					<table border="" cellspacing="0" cellpadding="0" id="table">
+						<!-- 采用表格可更好地对各个信息分类 -->
+						<tr>
+							
+							<th class="select"><input type="checkbox" name="user"   id="QuanXuan" onclick="QuanXuan()"/>全选</th>
+							
+							<th id="only" colspan="2">商品信息</th>
+							<th>单价/元</th>
+							<th>数量</th>
+							<th>金额/元</th>
+							<th>操作</th>
+						</tr>
+						<!-- js部分只需更改danjia clickjian clickjia result 和 jinE 便可完成对金额的计算 -->
+						<tr id="del0">
+							<!-- 产品 -->
+							<td class="select"><input type="checkbox" name="user"  /></td>
+							<td ><img src="images/商品0.jpg"></td>
+							<td id="shopmassage">时尚史上最巨无霸牛蓝牙耳机，不能用不退钱,欢迎大家购买</td>
+							<td id="danjia0">9.99</td>
+							<td>
+								<div id="button0">
+
+									<button class="button0" id="button1" type="button" onclick="clickJian0()">
+										<p>-</p>
+									</button>
+									<div id="button2">
+										<div id="result0">0</div>
+									</div>
+									<button id="button3" type="button" onclick="clickJia0()">
+										<p>+</p>
+									</button>
+								</div>
+							</td>
+							<td id="jinE0" class="jinE">0</td>
+							<td id="delete" onclick="del0()"><a href="#">删除</a></td>
+						</tr>
+						
+						<tr id="del1">
+							<td class="select"><input type="checkbox" name="user"  value="" /></td>
+							<td colspan=""><img src="images/商品13.jpg"></td>
+							<td id="shopmassage">美肤语奶咖色简约盘发夹后脑勺夹子发抓鲨鱼夹发卡顶夹头饰头发</td>
+							<td id="danjia1">9.99</td>
+							<td>
+								<div id="button0">	
+									<button class="button0" id="button1" type="button" onclick="clickJian1()">
+										<p>-</p>
+									</button>
+									<div id="button2">
+										<div id="result1">0</div>
+									</div>
+									<button id="button3" type="button" onclick="clickJia1()">
+										<p>+</p>
+									</button>
+								</div>
+							</td>
+							<td id="jinE1" class="jinE">0</td>
+							<td id="delete" onclick="del1()"><a href="#">删除</a></td>
+						</tr>
+						
+						<tr id="del2">
+							<td class="select"><input type="checkbox" name="user"  value="" /></td>
+							<td colspan=""><img src="images/商品16.jpg"></td>
+							<td id="shopmassage">凉鞋女一字带闪耀水钻女鞋仙女风厚底增高韩版网红百搭舒适平底鞋</td>
+							<td id="danjia2">9.99</td>
+							<td>
+								<div id="button0">	
+									<button class="button0" id="button1" type="button" onclick="clickJian2()">
+										<p>-</p>
+									</button>
+									<div id="button2">
+										<div id="result2">0</div>
+									</div>
+									<button id="button3" type="button" onclick="clickJia2()">
+										<p>+</p>
+									</button>
+								</div>
+							</td>
+							<td id="jinE2" class="jinE">0</td>
+							<td id="delete" onclick="del2()"><a href="#">删除</a></td>
+						</tr>
+						
+					
+					</table>
+					<span id="jiesuan"><a href="#">结算</a></span>
+				</div>
+			</div>
+
+		</div>
+		<script src="js/index_daohan.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/shopcar.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/add_shopping.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
